@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Doomsday Countdown</string>
+    <string name="widget_name">Doomsday Countdown</string>
+    <string name="widget_description">Live countdown to December 18, 2026</string>
+    <string name="title">DOOMSDAY IS COMING</string>
+    <string name="months">MONTHS</string>
+    <string name="days">DAYS</string>
+    <string name="hms">HRS · MIN · SEC</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <style name="Theme.Doomsday" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+    <style name="WidgetGlow">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#CCFFFFFF</item>
+        <item name="android:shadowRadius">10</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="WidgetNumber" parent="WidgetGlow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+    </style>
+
+    <style name="WidgetSeparator" parent="WidgetNumber">
+        <item name="android:alpha">0.5</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+    </style>
+
+    <style name="WidgetLabel" parent="WidgetGlow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:alpha">0.85</item>
+    </style>
+</resources>
